@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Estilo para el encabezado */
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Estilo para la barra de navegación */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Estilo para las columnas */
+.column {
+  float: left;
+  width: 33.33%;
+}
+
+/* Limpiar flotantes después de las columnas */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Diseño adaptable */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Principales empresas tecnológicas</h1>
+</div>
+
+<div class="topnav">
+  <a href="#">Inicio</a>
+  <a href="#">Productos</a>
+  <a href="#">Sobre Nosotros</a>
+  <a href="#">Contacto</a>
+</div>
+
+<div class="row">
+  <div class="column">
+    <h2>Apple</h2>
+    <p>Algún texto..</p>
+  </div>
+  <div class="column">
+    <h2>Microsoft</h2>
+    <p>Algún texto..</p>
+  </div>
+  <div class="column">
+    <h2>Google</h2>
+    <p>Algún texto..</p>
+  </div>
+</div>
+
+<div class="header">
+  <p>Clase desarrollada por DADG-1033</p>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1">
+    <meta name="robots" content="noarchive">
+    <meta name="revisit" content="2 days">
+    <meta name="description" content="Realiza el siguiente cuestionario sobre el profesorado y así poder tener feedback sobre el trabajo realizado por ellos. Muchas gracias por su tiempo.">
+    <title>Formulari</title>
+    <link rel="stylesheet" href="style_formulario.css">
+</head>
+
+<body>
+
+<h1>ENQUESTA PROFESSORAT</h1>
+
+
+
+
+    <form action="Pràctica_6_formulari" method="post">
+
+        <fieldset class="campo">
+            <legend>DADES PERSONALS</legend>
+            <p>Edat * </p><input type="number" name="edat" min="18" required placeholder="Inseriu l'edat">
+            <p>Email </p><input type="email" name="correu" size="65">
+            <p>Contrasenya * </p><input type="password" name="contrasenya" size="65" required placeholder="Inseriu la contrasenya">
+            <p>Data de naixement</p> <input type="date" id="data.naixement" name="data de naixement">
+            <p><i>Camps obligatoris *</i></p>
+        </fieldset>
+
+        <fieldset class="campo1">
+
+            <legend>Moduls a evaluar</legend>
+            <select id="moduls" name="moduls a evaluar" placeholder="Seleccioneu">
+                <option>Escolliu modul</option>
+                <option value="opcion1">M01</option>
+                <option value="opcion2">M02</option>
+                <option value="opcion3">M03</option>
+                <option value="opcion4">M04</option>
+                <option value="opcion5">M05</option>
+                <option value="opcion6">M12</option>
+                <option value="opcion7">M13</option>
+            </select>
+        </fieldset>
+
+        <fieldset class="campo2">    
+        <legend>Cicles</legend>
+            <input type="radio" name="Cicles" value="asix"> ASIX
+            <input type="radio" name="Cicles" value="dam"> DAM
+            <input type="radio" name="Cicles" value="daw"> DAW
+            <input type="radio" name="Cicles" value="bio"> BIOINFORMÀTICA
+        </fieldset>
+
+        <Fieldset class="campo3">
+        <legend>Professor a evaluar</legend>
+        <p>Nom Professor * </p> <input type="text" name="nom.professor" size="65" required placeholder="Inseriu el nom">
+        <p>Grau de satisfacció (del 0 al 10)</p> <input type="range" name="rango" min="0" max="10" step="1">
+        <p>Comentaris</p> <textarea name="comentaris" rows="4" cols="60" placeholder="Inseriu els comentaris"></textarea>
+        </Fieldset>
+      
+        <Fieldset class="campo4">
+        <legend>Explica alguna cosa sobre tu</legend>
+        <p>Ets repetidor?</p> 
+        <input type="radio" name="repetidor" value="Si"> Si
+        <input type="radio" name="repetidor no" value="No"> No
+        <p>Color preferit </p> <input type="color" name="colorElegido">
+        <p>Direcció web</p> <input type="url" name="direccio web" size="20">
+        <p>Situació actual</p> <select id="situació actual" name="la teva situació a l'actualitat" placeholder="Seleccioneu">
+            <option>Escolliu</option>
+            <option value="opcion1">Estudis</option>
+            <option value="opcion2">FCT</option>
+            <option value="opcion3">Dual</option>
+            <option value="opcion4">Estudis-FCT</option>
+            <option value="opcion5">Treballo-estudis</option>
+            <option value="opcion6">Treballo</option>
+            <option value="opcion7">Atur</option>
+        </select>
+        <p></p><input type="file" name="archiu" placeholder="Tria un fitxer">
+         </Fieldset>
+
+        <fieldset class="campo5">    
+        <legend>CURSOS EXTRES</legend>
+            <input type="radio" name="Cursos" value="cloud c"> Cloud Computing
+            <input type="radio" name="Cursos" value="big d"> Big Data
+            <input type="radio" name="Cursos" value="unity 5"> Unity 5
+        </fieldset>
+
+        <fieldset class="campo6">    
+            <legend>Data enquesta</legend>
+            <p>Data <input type="date" id="data.e.p" name="data enquesta"> Hora<input type="time" name="hora"></p>  
+        </fieldset>
+
+        <fieldset class="campo7">
+            <input class="boto-envia" type="submit" value="Envia" onclick="tramitat('El formulari ha sigut enviat!')" >
+            <input class="boto-esborra" type="reset" value="Esborra" onclick="suprimir('El formulari ha sigut reiniciat')" >
+            <input class="boto-enllaç" type="button" value="Surt" onclick="mensaje('Ha apretat el botó')" >
+            <script>
+                function tramitat(texto) {
+                    alert(texto);
+            }
+            </script>
+            <script>
+                function suprimir(texto) {
+                    alert(texto);
+            }
+            </script>
+            <script>
+                function mensaje(texto) {
+                    alert(texto);
+            }
+            </script>
+        </fieldset>
+
+        <input type="checkbox" name="casilla" value="He verificat que les dades siguin correctes">He verificat que les dades siguin correctes?
+
+    </form>        
+
+
+</body>
+</html>

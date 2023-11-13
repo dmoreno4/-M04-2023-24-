@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  form {
+    flex-direction: column;
+    align-items: center;
+  }
+
+h1 {
+  color:rgb(10, 5, 8);
+  align-items: center;
+  flex-direction: column;
+  display: flex;
+  }
+
+h3 {
+  display: flex;
+  flex-direction: left;
+  align-items: left;
+  text-decoration: underline;
+  }
+legend{ 
+  text-decoration: underline;
+  font-weight: bold;
+  
+}
+
+.campo{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo1{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo2{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo3{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo4{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo5{
+  background-color: rgb(250, 153, 7);
+}
+
+.campo6{
+  background-color: rgb(181, 182, 182);
+}
+
+.campo7{
+  background-color: rgb(29, 231, 231);
+}
+
+
+
+<style>
+  .boto-enllaç {
+    background-color: #4CAF50; /* color de fondo */
+    border: none; /* borde */
+    color: white; /* color del texto */
+    padding: 15px 32px; /* relleno */
+    text-align: center; /* alineación del texto */
+    text-decoration: none; /* decoración del texto */
+    display: inline-block; /* visualización */
+    font-size: 16px; /* tamaño de fuente */
+    margin: 4px 2px; /* margen */
+    cursor: pointer; /* cursor */
+  }
+
+  .boto-enllaç:hover {
+    background-color: #8e3e42;
+  }
+  .boto-envia:hover {
+    background-color: #3e8e66;
+  }
+  .boto-esborra:hover {
+    background-color: #4f3e8e;
+  }
+
+  .boto-enllaç a {
+    color: white;
+    text-decoration: none;
+  }
+</style>
+
+<input .boto-enllaç>
+  <a href="http://127.0.0.1:3000/Ejercicio formulario/Pràctica_6_formulari.html">Enllace</a>
+</input>
