@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="Menú.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .header {
+            background-color: #1a73e8;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a, .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover, .dropdown:hover .dropbtn {
+            background-color: red;
+        }
+
+        li.dropdown {
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .search-container {
+            margin: 20px;
+        }
+
+        .search-container input[type=text] {
+            padding: 6px;
+            margin-top: 8px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .search-container button {
+            float: right;
+            padding: 6px 10px;
+            margin-top: 8px;
+            margin-right: 16px;
+            background: #ddd;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background: #ccc;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Menú desplegable</h1>
+</div>
+
+<ul>
+  <li><a href="#home">Xulles.cat</a></li><li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Copiar amb SWAG</a>
+    <a href="javascript:void(0)" class="dropbtn">Escuses si et pillen</a>
+    <a href="javascript:void(0)" class="dropbtn">Tipus de xulles</a>
+    <a href="javascript:void(0)" class="dropbtn">Matèries</a>
+    <div class="dropdown-content">
+      <a href="#">Calculadoras</a>
+      <a href="#">Programació</a>
+      <a href="#">En bolígraf</a>
+      <a href="#">Sistemes</a>
+      <a href="#">Electrònics</a>
+      <a href="#">Hardware</a>
+    </div>
+    <div class="search-container">
+        <form action="/action_page.php">
+          <input type="text" placeholder="Cerca xulles" name="search">
+          <img src="Recursos Practica Menu desplegable/lupa.png" alt="lupa">
+          <button type="submit">Submit</button>
+        </form>
+    </div>
+  </li>
+</ul>
+
+<h3>Domina l'art de perdre molt més temps confeccionant complicats sistemes per a copiar del que et costaria aprovar els examens estudiant, perquè això és masaa fàcil.</h3>
+<div class="container">
+    <img src="Recursos Practica Menu desplegable/xulla.jpeg" alt="Imagen de la izqueierda">
+    <img src="Recursos Practica Menu desplegable/xulla1.jpeg" alt="Imagen del medio">
+    <img src="Recursos Practica Menu desplegable/xulla2.jpeg" alt="Imagen de la derecha">
+</div>
+
+</body>
+</html>
