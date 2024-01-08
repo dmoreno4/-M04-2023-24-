@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<receptes>
+    <recepta>
+        <nom>Paella Valenciana</nom>
+        <fotografia>paella_valenciana.jpg</fotografia>
+        <ingredients>
+            <ingredient>Arroz</ingredient>
+            <ingredient>Conejo</ingredient>
+            <ingredient>Alubias</ingredient>
+        </ingredients>
+        <passos>
+            <pas>Calentar el aceite en una paellera.</pas>
+            <pas>Añadir el conejo y sofreír hasta que esté dorado.</pas>
+            <pas>Añadir las alubias y el arroz.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Tortilla Española</nom>
+        <ingredients>
+            <ingredient>Huevos</ingredient>
+            <ingredient>Patatas</ingredient>
+            <ingredient>Cebolla</ingredient>
+        </ingredients>
+        <passos>
+            <pas>Pelar y cortar las patatas y la cebolla.</pas>
+            <pas>Freír las patatas y la cebolla en aceite hasta que estén blandas.</pas>
+            <pas>Batir los huevos y añadir las patatas y la cebolla.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Gazpacho</nom>
+        <ingredients>
+            <ingredient>Tomates</ingredient>
+            <ingredient>Pepino</ingredient>
+            <ingredient>Pimiento</ingredient>
+        </ingredients>
+        <passos>
+            <pas>Cortar los tomates, el pepino y el pimiento.</pas>
+            <pas>Mezclar en una batidora hasta obtener una sopa fría.</pas>
+            <pas>Servir frío.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Albóndigas en salsa</nom>
+        <ingredients>
+            <ingredient>Carne picada</ingredient>
+            <ingredient>Huevo</ingredient>
+            <ingredient>Pan rallado</ingredient>
+        </ingredients>
+        <passos>
+            <pas>Mezclar la carne picada, el huevo y el pan rallado.</pas>
+            <pas>Formar las albóndigas y freírlas.</pas>
+            <pas>Preparar la salsa y añadir las albóndigas.</pas>
+        </passos>
+    </recepta>
+    <recepta>
+        <nom>Flan de huevo</nom>
+        <ingredients>
+            <ingredient>Huevos</ingredient>
+            <ingredient>Leche</ingredient>
+            <ingredient>Azúcar</ingredient>
+        </ingredients>
+        <passos>
+            <pas>Mezclar los huevos, la leche y el azúcar.</pas>
+            <pas>Verter en un molde y cocinar al baño María.</pas>
+            <pas>Dejar enfriar y desmoldar.</pas>
+        </passos>
+    </recepta>
+</receptes>

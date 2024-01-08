@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<discos>
+    <disco>
+        <autor>Queen</autor>
+        <titol>A Night at the Opera</titol>
+        <genere>Rock</genere>
+        <numeroCancons>12</numeroCancons>
+    </disco>
+    <disco>
+        <autor>The Beatles</autor>
+        <titol>Sgt. Pepper's Lonely Hearts Club Band</titol>
+        <genere>Rock</genere>
+        <numeroCancons>13</numeroCancons>
+    </disco>
+    <disco>
+        <autor>Bob Dylan</autor>
+        <titol>Blowin' in the Wind</titol>
+        <genere>Folk</genere>
+        <numeroCancons>10</numeroCancons>
+    </disco>
+    <disco>
+        <autor>Michael Jackson</autor>
+        <titol>Thriller</titol>
+        <genere>Pop</genere>
+        <numeroCancons>9</numeroCancons>
+    </disco>
+    <disco>
+        <autor>Madonna</autor>
+        <titol>Like a Virgin</titol>
+        <genere>Pop</genere>
+        <numeroCancons>10</numeroCancons>
+    </disco>
+</discos>

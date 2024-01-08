@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<immobiliaria>
+    <habitatge>
+        <referencia>001</referencia>
+        <adreça>
+            <carrer>Carrer de la Llibertat</carrer>
+            <codiPostal>08012</codiPostal>
+            <poblacio>Barcelona</poblacio>
+        </adreça>
+        <tipus>Pis</tipus>
+        <operacio>Venda</operacio>
+        <preu>250000</preu>
+    </habitatge>
+    <habitatge>
+        <referencia>002</referencia>
+        <adreça>
+            <carrer>Avinguda Diagonal</carrer>
+            <codiPostal>08028</codiPostal>
+            <poblacio>Barcelona</poblacio>
+        </adreça>
+        <tipus>Pis</tipus>
+        <operacio>Lloguer</operacio>
+        <preu>1200</preu>
+    </habitatge>
+    <habitatge>
+        <referencia>003</referencia>
+        <adreça>
+            <carrer>Carrer de Sants</carrer>
+            <codiPostal>08014</codiPostal>
+            <poblacio>Barcelona</poblacio>
+        </adreça>
+        <tipus>Pis</tipus>
+        <operacio>Venda</operacio>
+        <preu>210000</preu>
+    </habitatge>
+    <habitatge>
+        <referencia>004</referencia>
+        <adreça>
+            <carrer>Carrer de Balmes</carrer>
+            <codiPostal>08007</codiPostal>
+            <poblacio>Barcelona</poblacio>
+        </adreça>
+        <tipus>Pis</tipus>
+        <operacio>Lloguer</operacio>
+        <preu>1500</preu>
+    </habitatge>
+    <habitatge>
+        <referencia>005</referencia>
+        <adreça>
+            <carrer>Passeig de Gràcia</carrer>
+            <codiPostal>08008</codiPostal>
+            <poblacio>Barcelona</poblacio>
+        </adreça>
+        <tipus>Pis</tipus>
+        <operacio>Venda</operacio>
+        <preu>500000</preu>
+    </habitatge>
+</immobiliaria>
